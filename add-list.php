@@ -87,7 +87,7 @@
         }
         */
         
-        //SElect Database
+        //Select Database
         $db_select = mysqli_select_db($conn, DB_NAME);
         
         //Check whether database is connected or not
@@ -128,7 +128,7 @@
             //Create SEssion to save message
             $_SESSION['add_fail'] = "Failed to Add List";
             
-            //REdirect to Same Page
+            //Redirect to Same Page
             header('location:'.SITEURL.'add-list.php');
         }
         
